@@ -1,0 +1,492 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav {
+    background-color: #27bef5;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    width: 100%;
+    /* position: fixed; */
+   
+    z-index: 1;
+}
+nav .logo {
+    display: flex;
+    align-items: center;
+    /* border: 1px solid rgb(234, 103, 103); */
+    width: 40%;
+    
+}
+nav ul {
+    
+   
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+nav ul li {
+      border-radius: 20x;
+    margin: 0 10px;
+     box-shadow: 0px 5px 0px rgba(0, 0, 0, 0.1);
+   
+
+}
+nav ul li a:hover {
+    background-color: #19aae8;
+    color: white;
+ 
+
+}
+nav ul li a {
+   
+    text-decoration: none;
+   
+}
+.manue{
+   /* display: none; */
+}
+.manue i :hover {
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+}
+.dropdown {
+    position: relative;
+    display:inline-block ;
+  
+   
+}
+
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    /* z-index: 1; */
+    border-radius: 5px;
+    
+}
+.dropdown-content ul li{
+    text-decoration: none;
+}
+
+
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+  
+}
+.section2{
+    background-image: url(./Images/plumber.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    align-items: center;
+    border: 1px solid rgb(214, 11, 11);
+    padding: 50px;
+    color: white;
+}
+
+.paragrph{
+    font-size: 20px;
+    /* color: white; */
+    margin: 20px 0;
+    text-align: justify;
+   
+}
+.btn {
+   background-color: aqua;
+    color: black;
+     padding: 10px 20px;
+     border: none;
+     border-radius: 5px;
+     cursor: pointer;
+     font-size: 16px;
+
+}
+.btn:hover {
+    background-color: #19aae8;
+    color: white;
+}
+.section3 {
+    
+   display: flex;
+   gap: 20px;
+    padding: 20px;
+    border: 1px solid rgb(112, 44, 44);
+    
+}
+.button {
+   background-color: aqua;
+    color: black;
+     padding: 10px 20px;
+     border: none;
+     border-radius: 5px;
+     cursor: pointer;
+     font-size: 16px;
+    margin: 10px;
+
+}
+.button:hover {
+    background-color: #19aae8;
+    color: white;
+}
+
+.main-section4{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+   
+}
+.section4 {
+    
+    padding: 20px;
+    border: 1px solid rgb(0, 0, 0);
+    width: 300px;
+    text-align: center;
+    gap: 20px;
+}
+.section4 i {
+    font-size: 50px;
+    color: #27bef5;
+}
+.paragrph2{
+    text-align: justify;
+    /* margin: 0px 100px 0px 0px; */
+    text-align: center;
+    align-items: center;
+}
+.quality{
+   
+    text-align: center;
+    padding: 20px;
+    border: 1px solid rgb(0, 0, 0);
+    
+  
+}
+.section5 {
+    position: relative;
+     padding: 20px;
+    border: 1px solid rgb(0, 0, 0);
+    width: 300px;
+    text-align: center;
+    gap: 20px;
+}
+.section5main   {
+   display: flex;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+
+.section6{
+    position: relative;
+ background-image: url(./Images/acc.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center;
+    align-items: center;
+    padding: 70px;
+    color: white;
+    
+}
+
+
+.button2 {
+    
+background-color: aqua;
+    color: black;
+     padding: 10px 20px;
+     border: none;
+     border-radius: 5px;
+     cursor: pointer;
+     font-size: 16px;
+}
+
+.ac img{
+    position: absolute;
+    /* top: 100px; */
+bottom: 0px;
+    right: 100px;
+    width: 400px;
+    height: 400px;
+}
+.section7 {
+    background-image: url(./Images/ac\ paiping.jpg);
+    padding: 50px;
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    text-align: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+.section7p {
+    margin: 30px 0;
+    font-size: 20px;
+    
+}
+
+/* section 8 */
+
+.section8{
+    width: 50% ;
+    align-items: center;
+   border-radius: 10px;
+    padding: 50px;
+    justify-content: space-between;
+    display: flex;
+    justify-content: space-around;
+   margin-left: 340px;
+   position: relative;
+    top: -100px;
+     background-color: white;
+     box-shadow: 0px 10px 20px rgba(150, 150, 150, 0.963);
+     text-align: center;
+}
+
+.section8 span {
+    font-size: 20px;
+    font-weight: bold;
+    color: aqua;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    
+}
+.section8 p {
+    font-size: 16px;
+    margin: 15px 0;
+    color: black;
+}
+
+/* section 9 */
+
+.main-nine{
+    text-align: center;
+     
+    
+}
+.main-nine span{
+     font-size: 20px;
+    font-weight: bold;
+    color: aqua;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
+.main-nine p{
+     margin: 20px 0;
+    font-size: 20px;
+}
+.shahid{
+    align-items: center; 
+
+}
+.irfan{
+    background-color: aqua;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 10px;
+}
+.irfan:hover {
+    background-color: #19aae8;
+    color: white;
+}
+
+/* section 10 */
+.section10 {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    gap: 15px;
+    
+    
+}
+.section10 img {
+    width: 400px;
+    height: 300px;
+   
+}
+
+/* section 11 */
+
+.our-membership {
+    position: relative;
+    background-image: url(./Images/acc.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    align-items: center;
+    padding: 50px;
+   margin-top: 50px;
+    text-align: center;
+}
+.our-membership span{
+    font-size: 20px;
+    font-weight: bold;
+    color: aqua;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
+.our-membership p{
+    
+    color:white;
+     margin: 20px 0;
+    font-size: 15px;
+}
+.our-membership h1 {
+    color: white;
+}
+
+
+.star img{
+  position: absolute;
+    height: 90px;
+    width: 90px;
+    border-radius: 100px;
+    left: 70px;
+    top: 245px;
+    z-index: 1;
+   
+   
+   
+}
+.daba{
+    height: 100px;
+    width: 470px;
+    background-color: white;
+    position: absolute;
+    left: 120px;
+    top:240px ;
+}
+
+.daba h1 {
+    color: black;
+    text-align: center;
+    padding: 40px;
+    font-size: 20px;
+}
+
+.dba {
+    height: 100px;
+    width: 470px;
+    background-color: white;
+    position: absolute;
+    right: 120px;
+    top:240px ;
+}
+.dba h1 {
+    color:black;
+   margin-right: 250px;
+    padding: 40px;
+    font-size: 20px;
+}
+
+.hexagon img {
+    position: absolute;
+    height: 90px;
+    width: 90px;
+    border-radius: 100px;
+    right: 550px;
+    top: 245px;
+    z-index: 1;
+}
+.our-membership i {
+    /* position: absolute;
+    top: 300px;
+    left: 20px;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+    align-items: center; */
+}
+.arrow {
+    position: absolute;
+    top: 450px;
+    right: 600px;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    gap: 20px;
+}
+.icon1{
+    border: 1px solid aqua;
+    width: 50px;
+
+}
+.icon1:hover {
+    background-color: aqua;
+    color: black;
+    border-radius: 10px;
+}
+.footer{
+    background-color: gray;
+    display: flex; 
+    gap: 30px;
+    
+}
+.footer p{
+    color:  rgba(252, 252, 252, 0.79);
+}
+.footer1 {
+    padding: 30px;
+    color: white;
+}
+.footer1 h1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.footer1 h3{
+     font-size: 20px;
+    margin-bottom: 20px;
+}
+.footer1 ul {
+    list-style: none;
+   
+}
+.footer1 ul li {
+    margin: 10px 0;
+    color: rgba(252, 252, 252, 0.79);
+   
+}
+.footer1 button{
+    background-color: aqua;
+    color: black;
+     padding: 10px 20px;
+     border: none;
+     border-radius: 50px;
+     cursor: pointer;
+     font-size: 16px;
+     margin: 20px 0px;
+}
+.facebook {
+    
+    margin: 30px 0px;
+}
+.footer1{
+    margin-left: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
